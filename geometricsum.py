@@ -16,7 +16,7 @@ def geometricsum(ration,n):
 
     sum = 0         #  This the running total of the geometric sum
 
-    # This for loop will calculate geometric value and add it the the sum
+    # This for loop will calculate geometric value and add it to the sum
     for i in range(0,n+1):
         sum += math.pow(ration,i)
 
