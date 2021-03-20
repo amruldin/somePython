@@ -1,8 +1,8 @@
-# Function that take two argument ratio and n and returns ration^0+ration^n
+# Function that takes two argument ratio and n and returns ration^0+ration^n
 
 
 
-# the math library will help is calculating the an integer to the power of n
+# the math library will help in calculating  an integer to the power of n
 import math
 
 
@@ -11,7 +11,7 @@ def getUserInput(prompt):
     return int(input(prompt))
 
 
-# This function is calculate the gemeteric sum
+# This function is used to calculate and return the gemeteric sum
 def geometricsum(ration,n):
 
     sum = 0         #  This the running total of the geometric sum
